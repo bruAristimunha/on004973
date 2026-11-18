@@ -19,5 +19,13 @@
     },
     "subjective_evaluations": {
         "Description": "Subjective evaluation of the dangerous degree of the VTD segment, as in the source participants.json: 4 denotes the most dangerous; * denotes missing data"
+    },
+    "driving experience": {
+        "Description": "Driving experience of the participant",
+        "Units": "years"
+    },
+    "subjective evaluations": {
+        "Description": "We use nubmer to denote the subjective evaluation for dangerous degree  of VTD segment , Here 4 denotes the most dangerous; and * denote the data is loss.",
+        "Units": " "
     }
 }
