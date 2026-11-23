@@ -1,5 +1,5 @@
 1.0.2 2026-11-18
-  - participants.tsv: new columns sex, driving_experience and subjective_evaluations added, holding the three space-separated parts of the published field "sex   driving_experience subjective_evaluations"; sex written with the participants.json Levels codes (Male -> M, Female -> F); published column, cells, byte-order mark and line endings unchanged
+  - participants.tsv: new columns sex, driving_experience and subjective_evaluations added, holding the three space-separated parts of the published field "sex   driving_experience subjective_evaluations"; sex written with the participants.json Levels codes (Male -> M, Female -> F); line endings normalized CRLF -> LF; published column, cells and byte-order mark unchanged
   - participants.json: descriptions added for the new columns driving_experience and subjective_evaluations; the published keys are kept; line endings CRLF -> LF
   - 414 TSV files (197 channels.tsv, 197 events.tsv, 20 optodes.tsv): byte-order mark and Windows line endings removed; values unchanged
   - 197 *_nirs.json: ManufacturersModelName OctaMon added (doi:10.1038/s41597-024-03353-6, Methods); line endings CRLF -> LF (published values unchanged)
